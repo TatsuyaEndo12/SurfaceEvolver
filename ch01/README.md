@@ -50,3 +50,18 @@ BCモデルの曲げ弾性エネルギーは以下のように表される
 ## 実際の動き（膜面積差daを変化させる時）
 
 
+
+## 課題 
+![スクリーンショット 2021-06-11 16 54 33](https://user-images.githubusercontent.com/85602161/121651639-ccef1f00-cad5-11eb-8aaa-6220d6b07d3a.png)
+![スクリーンショット 2021-06-11 17 11 03](https://user-images.githubusercontent.com/85602161/121653817-0d4f9c80-cad8-11eb-8d27-6ef1c0c5b184.png)
+
+![スクリーンショット 2021-06-11 17 25 01](https://user-images.githubusercontent.com/85602161/121655979-fca02600-cad9-11eb-978c-9a5534048d35.png)
+![スクリーンショット 2021-06-11 17 27 37](https://user-images.githubusercontent.com/85602161/121656376-60c2ea00-cada-11eb-9890-dcc8e639f1e3.png)
+
+
+![スクリーンショット 2021-06-11 17 21 44](https://user-images.githubusercontent.com/85602161/121655371-856a9200-cad9-11eb-8cc8-c9741dd0c141.png)
+![スクリーンショット 2021-06-11 17 22 59](https://user-images.githubusercontent.com/85602161/121655610-b3e86d00-cad9-11eb-9696-855e5230bd49.png)
+
+## 解答
+
+
