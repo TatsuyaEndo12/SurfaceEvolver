@@ -45,5 +45,8 @@ BCモデルの曲げ弾性エネルギーは以下のように表される
 
 ![スクリーンショット 2021-06-11 15 57 53](https://user-images.githubusercontent.com/85602161/121644303-d1173e80-cacd-11eb-9395-282926bea370.png)
 
+![スクリーンショット 2021-06-11 16 39 04](https://user-images.githubusercontent.com/85602161/121649463-8f899200-cad3-11eb-854d-088f452bfa39.png)
+
+## 実際の動き（膜面積差daを変化させる時）
 
 
