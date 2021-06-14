@@ -1,6 +1,11 @@
 
 # ベシクルモデルの作成とv、daのパラメータ変化による変形
 ## ベシクルモデルの作成（曲げ弾性エネルギーを定義）
+![図1 png-11](https://user-images.githubusercontent.com/85602161/121870932-7fc1b600-cd3e-11eb-8a2b-cf97a02a1f0e.png)
+![図1 png-12](https://user-images.githubusercontent.com/85602161/121870957-851f0080-cd3e-11eb-8576-e2c4929c5f73.png)
+![図1 png-3](https://user-images.githubusercontent.com/85602161/121871202-d0391380-cd3e-11eb-9ca8-e52c2baa20d0.png)
+
+
 ![スクリーンショット 2021-06-14 12 18 42](https://user-images.githubusercontent.com/85602161/121834883-cbf30300-cd0a-11eb-8e11-ec8e51e573aa.png)
 
 <img src="https://github.com/TatsuyaEndo12/SurfaceEvolver/blob/patch1/ch01/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202021-06-10%2014.51.19.png" width=25%>
