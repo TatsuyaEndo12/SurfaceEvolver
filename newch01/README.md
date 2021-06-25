@@ -8,8 +8,8 @@ BCモデルの曲げ弾性エネルギーは以下のように表される
 
 ここで𝐻は曲面の平均曲率、 𝜅は膜弾性率。
 半径 𝑅 の球状ベシクルについて，曲げ弾性エネルギー 𝑊<sub>BC</sub> を計算すると、
-![スクリーンショット 2021-06-25 17 40 49](https://user-images.githubusercontent.com/85602161/123396632-81139e00-d5dc-11eb-878f-271aba46216e.png)
-となる。
+
+![スクリーンショット 2021-06-25 18 35 15](https://user-images.githubusercontent.com/85602161/123404762-22522280-d5e4-11eb-9d59-cb76e7b31226.png)
 
 半径 𝑅 の球状ベシクルにおける曲げ弾性エネルギー 𝑊<sub>BC</sub> で規格化された曲げ弾性エネルギーw<sub>BC</sub>を
 ![スクリーンショット 2021-06-25 17 43 14](https://user-images.githubusercontent.com/85602161/123396941-d8b20980-d5dc-11eb-960a-9c38150005bc.png)
@@ -34,17 +34,17 @@ farea.target := (body[1].target*6*(pi)**(1/2)/rev)**(2/3);
 
 ## 実際の動き（換算体積vを変化させる時）
 SEを起動し、
-
+```
 　j 0.01
- 
+```
 と入力し、
- 
+```
 　farea.target := farea.value +○○（0.1などの実数）
-  
+```
 と入力し、換算体積をずらしてから
- 
+ ```
 　{V;g;u} 1000
-
+```
 と入力することで、パラメーターを変化させてのシミュレーションが行われる。Vは頂点を平均的に分布させる操作を実行し、uはスパイク防止の操作を実行、gは安定化計算を実行するがここでは3つのコマンドを1セットにして安定化計算を行なっている。
 （上の例では1000回計算が行われる。）
 
@@ -69,24 +69,24 @@ mciはQUANTITY変数で定義されている。
 
 ## 実際の動き（膜面積差daを変化させる時）
 SEを起動し、
-
+```
 　fix mci
- 
+```
 と入力し、mciを動かせるようにしてから
-
+```
 　mci.target := 〇〇(99などの実数)
- 
+```
 と入力し、mciを拘束条件に設定する。その後、
-
+```
 　{V;g;u} 1000
-
+```
 と入力することで、パラメーターを変化させてのシミュレーションが行われる。
 
 ## 課題
 ![スクリーンショット 2021-06-11 16 54 33](https://user-images.githubusercontent.com/85602161/121651639-ccef1f00-cad5-11eb-8aaa-6220d6b07d3a.png)
-![スクリーンショット 2021-06-11 17 11 03](https://user-images.githubusercontent.com/85602161/121653817-0d4f9c80-cad8-11eb-8d27-6ef1c0c5b184.png)
 
-![スクリーンショット 2021-06-11 17 25 01](https://user-images.githubusercontent.com/85602161/121655979-fca02600-cad9-11eb-978c-9a5534048d35.png)
+<img src="https://user-images.githubusercontent.com/85602161/121653817-0d4f9c80-cad8-11eb-8d27-6ef1c0c5b184.png" width=50%>
+
 ![スクリーンショット 2021-06-11 17 27 37](https://user-images.githubusercontent.com/85602161/121656376-60c2ea00-cada-11eb-9890-dcc8e639f1e3.png)
 
 
